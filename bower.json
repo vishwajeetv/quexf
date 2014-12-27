@@ -1,0 +1,21 @@
+{
+  "name": "quexf",
+  "version": "0.0.0",
+  "authors": [
+    "Vishwajeet Vatharkar <vishwajeetvatharkar@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "font-awesome": "~4.2.0",
+    "bootstrap-material-design": "~0.2.1"
+  }
+}
