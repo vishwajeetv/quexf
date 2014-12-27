@@ -61,6 +61,9 @@ print "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 			<meta http-equiv='refresh' content='$refresh'/>";
 	if (!$body) return;
 ?>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/material.min.css">
+		<link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/ripples.min.css">
 	</head>
 <?
 	if ($bodytext) print "<body $bodytext>"; else print "<body>";
@@ -75,6 +78,11 @@ print "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 function xhtml_foot()
 {
 ?>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+	<script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+
 	</body>
 	</html>
 

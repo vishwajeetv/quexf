@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="838d5567-d0fd-486f-8709-2e1751334c14" name="Default" comment="" />
+    <list default="true" id="838d5567-d0fd-486f-8709-2e1751334c14" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/admin.css" afterPath="$PROJECT_DIR$/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/functions.xhtml.php" afterPath="$PROJECT_DIR$/functions/functions.xhtml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="quexf.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,8 +34,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="640">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state vertical-scroll-proportion="-13.32" vertical-offset="195" max-vertical-offset="640">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <marker date="1406022400000" expanded="true" signature="1251:1551" placeholder="SELECT f.ass..." />
               </folding>
@@ -40,30 +46,20 @@
       <file leaf-file-name="admin.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5357144" vertical-offset="425" max-vertical-offset="864">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="880">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modifybox.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modifybox.php">
+      <file leaf-file-name="functions.xhtml.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.48" vertical-offset="384" max-vertical-offset="3504">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="1184" max-vertical-offset="3568">
+              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
               <folding>
-                <marker date="1406022400000" expanded="true" signature="1171:1275" placeholder="UPDATE boxgr..." />
-                <marker date="1406022400000" expanded="true" signature="1503:1551" placeholder="SELECT bid F..boxes..." />
-                <marker date="1406022400000" expanded="true" signature="1719:1772" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1952:1992" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="2153:2201" placeholder="SELECT bid F..boxes..." />
-                <marker date="1406022400000" expanded="true" signature="2271:2322" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="2361:2411" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="3231:3279" placeholder="SELECT bgid ..boxes..." />
-                <marker date="1406022400000" expanded="true" signature="3386:3455" placeholder="SELECT btid,..boxgroupstype..." />
-                <marker date="1406022400000" expanded="true" signature="3605:3700" placeholder="SELECT descr..." />
-                <marker date="1406022400000" expanded="true" signature="3766:3861" placeholder="SELECT descr..." />
+                <element signature="e#3#1152#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +68,8 @@
       <file leaf-file-name="icrassign.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/icrassign.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.48" vertical-offset="16" max-vertical-offset="3856">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state vertical-scroll-proportion="-7.84" vertical-offset="1148" max-vertical-offset="3856">
+              <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
               <folding>
                 <marker date="1406022400000" expanded="true" signature="1128:1218" placeholder="SELECT btid,..ocrkbboxgroup..." />
                 <marker date="1406022400000" expanded="true" signature="1336:1408" placeholder="INSERT INTO ..." />
@@ -81,56 +77,17 @@
                 <marker date="1406022400000" expanded="true" signature="1790:1842" placeholder="SELECT kb,de..ocrkb..." />
                 <marker date="1406022400000" expanded="true" signature="1885:1978" placeholder="SELECT btid,..boxgrouptypes..." />
                 <marker date="1406022400000" expanded="true" signature="2113:2174" placeholder="SELECT descr..questionnaires..." />
-                <marker date="1406022400000" expanded="true" signature="4258:4315" placeholder="SELECT qid,d..questionnaires..." />
+                <marker date="1406022400000" expanded="true" signature="4223:4291" placeholder="SELECT qid,d..questionnaires..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.xhtml.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24409449" vertical-offset="947" max-vertical-offset="3440">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="e#3#1152#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.48" vertical-offset="134" max-vertical-offset="1296">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-                <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-                <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagetest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pagetest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.96" vertical-offset="4174" max-vertical-offset="4784">
-              <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.4" vertical-offset="579" max-vertical-offset="1616">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.38323355" vertical-offset="1120" max-vertical-offset="2400">
+              <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
               <folding>
                 <element signature="e#3#924#0#PHP" expanded="true" />
               </folding>
@@ -138,28 +95,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="656">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.inc.php" />
-        <option value="$PROJECT_DIR$/functions/functions.xhtml.php" />
         <option value="$PROJECT_DIR$/admin/pagetest.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/modifybox.php" />
         <option value="$PROJECT_DIR$/admin/icrassign.php" />
+        <option value="$PROJECT_DIR$/functions/functions.xhtml.php" />
         <option value="$PROJECT_DIR$/css/admin.css" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
       </list>
     </option>
   </component>
@@ -224,27 +174,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quexf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quexf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,6 +190,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -299,24 +238,24 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2621128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10015898" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -361,6 +300,270 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="3440">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#3#1152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pagetest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
+          <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1616">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="e#3#924#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="656">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="1251:1551" placeholder="SELECT f.ass..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="864">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifybox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="3504">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="UPDATE boxgr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bgid ..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT btid,..boxgroupstype..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/icrassign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="3856">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="1128:1218" placeholder="SELECT btid,..ocrkbboxgroup..." />
+            <marker date="1406022400000" expanded="true" signature="1336:1408" placeholder="INSERT INTO ..." />
+            <marker date="1406022400000" expanded="true" signature="1560:1611" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="1790:1842" placeholder="SELECT kb,de..ocrkb..." />
+            <marker date="1406022400000" expanded="true" signature="1885:1978" placeholder="SELECT btid,..boxgrouptypes..." />
+            <marker date="1406022400000" expanded="true" signature="2113:2174" placeholder="SELECT descr..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="4223:4291" placeholder="SELECT qid,d..questionnaires..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="531" max-vertical-offset="3440">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#3#1152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pagetest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
+          <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1616">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="e#3#924#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="656">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="640">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="1251:1551" placeholder="SELECT f.ass..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="864">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifybox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="3504">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="UPDATE boxgr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bgid ..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT btid,..boxgroupstype..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/icrassign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="3856">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="1128:1218" placeholder="SELECT btid,..ocrkbboxgroup..." />
+            <marker date="1406022400000" expanded="true" signature="1336:1408" placeholder="INSERT INTO ..." />
+            <marker date="1406022400000" expanded="true" signature="1560:1611" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="1790:1842" placeholder="SELECT kb,de..ocrkb..." />
+            <marker date="1406022400000" expanded="true" signature="1885:1978" placeholder="SELECT btid,..boxgrouptypes..." />
+            <marker date="1406022400000" expanded="true" signature="2113:2174" placeholder="SELECT descr..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="4223:4291" placeholder="SELECT qid,d..questionnaires..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3#1152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pagetest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
+          <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1616">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="e#3#924#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="656">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="640">
@@ -376,17 +579,17 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2942" max-vertical-offset="3504">
           <caret line="226" column="4" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="4" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1171:1275" placeholder="UPDATE boxgr..." />
-            <marker date="1406022400000" expanded="true" signature="1503:1551" placeholder="SELECT bid F..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="1719:1772" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1952:1992" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="2153:2201" placeholder="SELECT bid F..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="2271:2322" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="2361:2411" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="3231:3279" placeholder="SELECT bgid ..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="3386:3455" placeholder="SELECT btid,..boxgroupstype..." />
-            <marker date="1406022400000" expanded="true" signature="3605:3700" placeholder="SELECT descr..." />
-            <marker date="1406022400000" expanded="true" signature="3766:3861" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="UPDATE boxgr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bgid ..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT btid,..boxgroupstype..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
           </folding>
         </state>
       </provider>
@@ -442,17 +645,17 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2942" max-vertical-offset="3504">
           <caret line="226" column="4" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="4" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1171:1275" placeholder="UPDATE boxgr..." />
-            <marker date="1406022400000" expanded="true" signature="1503:1551" placeholder="SELECT bid F..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="1719:1772" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1952:1992" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="2153:2201" placeholder="SELECT bid F..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="2271:2322" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="2361:2411" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="3231:3279" placeholder="SELECT bgid ..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="3386:3455" placeholder="SELECT btid,..boxgroupstype..." />
-            <marker date="1406022400000" expanded="true" signature="3605:3700" placeholder="SELECT descr..." />
-            <marker date="1406022400000" expanded="true" signature="3766:3861" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="UPDATE boxgr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bgid ..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT btid,..boxgroupstype..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
           </folding>
         </state>
       </provider>
@@ -508,69 +711,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="640">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <marker date="1406022400000" expanded="true" signature="1251:1551" placeholder="SELECT f.ass..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/pagetest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.96" vertical-offset="4174" max-vertical-offset="4784">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
           <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.4" vertical-offset="579" max-vertical-offset="1616">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="e#3#924#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.52791876" vertical-offset="0" max-vertical-offset="432">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/delete.php">
+    <entry file="file://$PROJECT_DIR$/CHANGELOG">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.48" vertical-offset="134" max-vertical-offset="1296">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-            <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/icrassign.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.48" vertical-offset="16" max-vertical-offset="3856">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <marker date="1406022400000" expanded="true" signature="1128:1218" placeholder="SELECT btid,..ocrkbboxgroup..." />
-            <marker date="1406022400000" expanded="true" signature="1336:1408" placeholder="INSERT INTO ..." />
-            <marker date="1406022400000" expanded="true" signature="1560:1611" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1790:1842" placeholder="SELECT kb,de..ocrkb..." />
-            <marker date="1406022400000" expanded="true" signature="1885:1978" placeholder="SELECT btid,..boxgrouptypes..." />
-            <marker date="1406022400000" expanded="true" signature="2113:2174" placeholder="SELECT descr..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="4258:4315" placeholder="SELECT qid,d..questionnaires..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5357144" vertical-offset="425" max-vertical-offset="864">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6592">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -580,27 +739,136 @@
         <state vertical-scroll-proportion="-4.48" vertical-offset="384" max-vertical-offset="3504">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1171:1275" placeholder="UPDATE boxgr..." />
-            <marker date="1406022400000" expanded="true" signature="1503:1551" placeholder="SELECT bid F..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="1719:1772" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1952:1992" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="2153:2201" placeholder="SELECT bid F..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="2271:2322" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="2361:2411" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="3231:3279" placeholder="SELECT bgid ..boxes..." />
-            <marker date="1406022400000" expanded="true" signature="3386:3455" placeholder="SELECT btid,..boxgroupstype..." />
-            <marker date="1406022400000" expanded="true" signature="3605:3700" placeholder="SELECT descr..." />
-            <marker date="1406022400000" expanded="true" signature="3766:3861" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="UPDATE boxgr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bid F..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT bgid ..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT btid,..boxgroupstype..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT descr..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24409449" vertical-offset="947" max-vertical-offset="3440">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="1184" max-vertical-offset="3568">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding>
             <element signature="e#3#1152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="880">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.32" vertical-offset="195" max-vertical-offset="640">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="1251:1551" placeholder="SELECT f.ass..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/bandajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.84" vertical-offset="8572" max-vertical-offset="9712">
+          <caret line="568" column="20" selection-start-line="568" selection-start-column="20" selection-end-line="568" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/clientquestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.84" vertical-offset="3212" max-vertical-offset="3968">
+          <caret line="241" column="15" selection-start-line="241" selection-start-column="15" selection-end-line="241" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/clients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.4" vertical-offset="547" max-vertical-offset="1136">
+          <caret line="82" column="174" selection-start-line="82" selection-start-column="174" selection-end-line="82" selection-end-column="174" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/icrassign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.84" vertical-offset="1148" max-vertical-offset="3856">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="1128:1218" placeholder="SELECT btid,..ocrkbboxgroup..." />
+            <marker date="1406022400000" expanded="true" signature="1336:1408" placeholder="INSERT INTO ..." />
+            <marker date="1406022400000" expanded="true" signature="1560:1611" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="1790:1842" placeholder="SELECT kb,de..ocrkb..." />
+            <marker date="1406022400000" expanded="true" signature="1885:1978" placeholder="SELECT btid,..boxgrouptypes..." />
+            <marker date="1406022400000" expanded="true" signature="2113:2174" placeholder="SELECT descr..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="4223:4291" placeholder="SELECT qid,d..questionnaires..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/band.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1875" vertical-offset="2470" max-vertical-offset="5952">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT b.tlx..boxes..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid,w..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT image..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT qid,d..questionnaires..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.111111" vertical-offset="694" max-vertical-offset="1296">
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+          <folding>
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38323355" vertical-offset="1120" max-vertical-offset="2400">
+          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+          <folding>
+            <element signature="e#3#924#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
