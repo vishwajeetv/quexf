@@ -31,107 +31,106 @@ include("../config.inc.php");
 xhtml_head(T_("queXF Admin Functions"), true, array("../css/admin.css"));
 
 ?>
-<div id="menu" class="container-fluid">
+<div id="menu" class="container-fluid main">
 
     <nav class="menu">
         <div class="jumbotron">
             <h2><? echo T_("QueXF Admin"); ?></h2>
         </div>
         <ul>
-            <li><h2><? echo T_("Form setup"); ?></h2>
+            <li class="well page"><h2><? echo T_("Form setup"); ?></h2>
                 <ul>
-<!--                    <li><a class="btn btn-flat btn-default"-->
+<!--                    <li><a class="btn btn-raised"-->
 <!--                           href="?page=pagetest.php">--><?// echo T_("Test form compatibility with queXF"); ?><!--</a></li>-->
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=new.php"><? echo T_("Import a new form from a PDF file"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=importbandingxml.php"><? echo T_("Import/Update banding from XML"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=delete.php"><? echo T_("Delete a form (only if no forms yet imported)"); ?></a>
+                    <li><a class="btn btn-raised"
+                           href="?page=new.php"><i class="mdi-content-add"></i> New Form</a></li>
+                    <li><a class="btn btn-raised"
+                           href="?page=importbandingxml.php"><? echo T_("Import/Update banding"); ?></a></li>
+                    <li><a class="btn btn-raised"
+                           href="?page=delete.php"><? echo T_("Delete a form"); ?></a>
                     </li>
-<!--                    <li><a class="btn btn-flat btn-default"-->
+<!--                    <li><a class="btn btn-raised"-->
 <!--                           href="?page=touchup.php">--><?// echo T_("Touch-up a form"); ?><!--</a></li>-->
-<!--                    <li><a class="btn btn-flat btn-default" href="?page=band.php">--><?// echo T_("Band a form"); ?><!--</a></li>-->
-<!--                    <li><a class="btn btn-flat btn-default"-->
+<!--                    <li><a class="btn btn-raised" href="?page=band.php">--><?// echo T_("Band a form"); ?><!--</a></li>-->
+<!--                    <li><a class="btn btn-raised"-->
 <!--                           href="?page=bandajax.php">--><?// echo T_("Band a form using interactive banding"); ?><!--</a></li>-->
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=reorder.php"><? echo T_("Order variables on the form"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=limesurvey.php"><? echo T_("queXS and Limesurvey integration"); ?></a></li>
+                    <li><a class="btn btn-raised"
+                           href="?page=reorder.php"><? echo T_("Order form variables"); ?></a></li>
+                    <li><a class="btn btn-raised"
+                           href="?page=limesurvey.php"><? echo T_("Limesurvey integration"); ?></a></li>
                 </ul>
             </li>
-            <li><h2><? echo T_("Users"); ?></h2>
-                <ul>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=operators.php"><? echo T_("Add operators"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=verifierquestionnaire.php"><? echo T_("Assign forms to operators"); ?></a></li>
-                </ul>
-            </li>
+<!--            <li><h2>--><?// echo T_("Users"); ?><!--</h2>-->
+<!--                <ul>-->
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=operators.php">--><?// echo T_("Add operators"); ?><!--</a></li>-->
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=verifierquestionnaire.php">--><?// echo T_("Assign forms to operators"); ?><!--</a></li>-->
+<!--                </ul>-->
+<!--            </li>-->
 <!--            --><?// if (ICR_ENABLED) { ?>
 <!--                <li><h2>--><?// echo T_("ICR"); ?><!--</h2>-->
 <!--                    <ul>-->
-<!--                        <li><a class="btn btn-flat btn-default"-->
+<!--                        <li><a class="btn btn-raised"-->
 <!--                               href="?page=icrtrain.php">--><?// echo T_("Train ICR"); ?><!--</a></li>-->
-<!--                        <li><a class="btn btn-flat btn-default"-->
+<!--                        <li><a class="btn btn-raised"-->
 <!--                               href="?page=icrmonitor.php">--><?// echo T_("Monitor ICR training process"); ?><!--</a></li>-->
-<!--                        <li><a class="btn btn-flat btn-default"-->
+<!--                        <li><a class="btn btn-raised"-->
 <!--                               href="?page=icrkb.php">--><?// echo T_("Import and Export ICR KB"); ?><!--</a></li>-->
-<!--                        <li><a class="btn btn-flat btn-default"-->
+<!--                        <li><a class="btn btn-raised"-->
 <!--                               href="?page=icrassign.php">--><?// echo T_("Assign ICR KB to questionnaire"); ?><!--</a></li>-->
 <!--                    </ul>-->
 <!--                </li>-->
 <!--            --><?// } ?>
-            <li><h2><? echo T_("Importing"); ?></h2>
+            <li class="well page"><h2><? echo T_("Importing"); ?></h2>
                 <ul>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=import.directory.php"><? echo T_("Import a directory of PDF files"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=listfiles.php?status=1"><? echo T_("Successfully imported files"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=listfiles.php?status=2"><? echo T_("Failed imported files"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=listduplicates.php"><? echo T_("Duplicate forms"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=listforms.php"><? echo T_("Reverify forms"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=listforms.php">--><?// echo T_("Reverify forms"); ?><!--</a></li>-->
+                    <li><a class="btn btn-raised"
                            href="?page=listpagenotes.php"><? echo T_("List page notes"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=pagesmissing.php"><? echo T_("Pages missing from scan"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=missingpages.php"><? echo T_("Handle undetected pages"); ?></a></li>
                 </ul>
             </li>
-            <li><h2><? echo T_("Output"); ?></h2>
+            <li class="well page"><h2><? echo T_("Output"); ?></h2>
                 <ul>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=outputunverified.php"><? echo T_("Output unverified data"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=output.php"><? echo T_("Output data/ddi"); ?></a></li>
+                    <li><a class="btn btn-raised" href="?page=outputunverified.php"><? echo T_("Output unverified data"); ?></a></li>
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=output.php">--><?// echo T_("Output data/ddi"); ?><!--</a></li>-->
                 </ul>
             </li>
-            <li><h2><? echo T_("Progress"); ?></h2>
+<!--            <li><h2>--><?// echo T_("Progress"); ?><!--</h2>-->
+<!--                <ul>-->
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=progress.php">--><?// echo T_("Display progress of form verification"); ?><!--</a></li>-->
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=performance.php">--><?// echo T_("Display performance of verifiers (Completions per hour)"); ?><!--</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </li>-->
+<!--            <li><h2>--><?// echo T_("Clients"); ?><!--</h2>-->
+<!--                <ul>-->
+<!--                    <li><a class="btn btn-raised" href="?page=clients.php">--><?// echo T_("Add clients"); ?><!--</a>-->
+<!--                    </li>-->
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=clientquestionnaire.php">--><?// echo T_("Assign clients to forms"); ?><!--</a></li>-->
+<!--                </ul>-->
+<!--            </li>-->
+            <li class="well page"><h2><? echo T_("System setup"); ?></h2>
                 <ul>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=progress.php"><? echo T_("Display progress of form verification"); ?></a></li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=performance.php"><? echo T_("Display performance of verifiers (Completions per hour)"); ?></a>
+                    <li><a class="btn btn-raised" href="?page=pagesetup.php"><? echo T_("Page setup"); ?></a>
                     </li>
-                </ul>
-            </li>
-            <li><h2><? echo T_("Clients"); ?></h2>
-                <ul>
-                    <li><a class="btn btn-flat btn-default" href="?page=clients.php"><? echo T_("Add clients"); ?></a>
-                    </li>
-                    <li><a class="btn btn-flat btn-default"
-                           href="?page=clientquestionnaire.php"><? echo T_("Assign clients to forms"); ?></a></li>
-                </ul>
-            </li>
-            <li><h2><? echo T_("System setup"); ?></h2>
-                <ul>
-                    <li><a class="btn btn-flat btn-default" href="?page=pagesetup.php"><? echo T_("Page setup"); ?></a>
-                    </li>
-                    <li><a class="btn btn-flat btn-default"
+                    <li><a class="btn btn-raised"
                            href="?page=testconfig.php"><? echo T_("Test configuration"); ?></a></li>
                 </ul>
             </li>

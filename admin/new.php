@@ -81,27 +81,68 @@ if ($a)
 
 
 }
-
-print "<h1>" . T_("New questionnaire") . "</h1>";
-print "<h2>" . T_("When using banding XML:") . "</h2>";
-print "<p>" . T_("You must import the original PDF and banding XML file (not a scanned version)") . "</p>";
-print "<h2>" . T_("When manually banding:") . "</h2>";
-print "<p>" . T_("You will get the best results if you:") . "</p>";
-print "<ul><li>" . T_("Print out the form using the same method that you will for all the printed forms") . "</li>";
-print "<li>" . T_("Scan the (blank) form to a PDF using the same options that you will for the filled forms") . "</li>";
-print "<li>" . T_("Best options for scanning in are:");
-print "<ul><li>" . T_("Monochrome (1 bit)") . "</li>";
-print "<li>" . T_("300DPI Resolution") . "</li></ul></li></ul>";
+//print "<h1>" . T_("New questionnaire") . "</h1>";
+//print "<h2>" . T_("When using banding XML:") . "</h2>";
+//print "<p>" . T_("You must import the original PDF and banding XML file (not a scanned version)") . "</p>";
+//print "<h2>" . T_("When manually banding:") . "</h2>";
+//print "<p>" . T_("You will get the best results if you:") . "</p>";
+//print "<ul><li>" . T_("Print out the form using the same method that you will for all the printed forms") . "</li>";
+//print "<li>" . T_("Scan the (blank) form to a PDF using the same options that you will for the filled forms") . "</li>";
+//print "<li>" . T_("Best options for scanning in are:");
+//print "<ul><li>" . T_("Monochrome (1 bit)") . "</li>";
+//print "<li>" . T_("300DPI Resolution") . "</li></ul></li></ul>";
 
 ?>
+<div class="row">
+	<div class="col-sm-11">
 
-<form enctype="multipart/form-data" action="" method="post">
+<div class='well page'>
+
+
+<form enctype="multipart/form-data" class="form-horizontal" action="" method="post">
+	<fieldset>
+		<legend><i class="mdi-content-add"></i> New Form </legend>
+
 	<p><input type="hidden" name="MAX_FILE_SIZE" value="1000000000" /></p>
-	<p><? echo T_("Select PDF file to create form from"); ?>: <input name="form" type="file" /></p>
-	<p><? echo T_("(Optional): Select banding XML file"); ?>: <input name="bandingxml" type="file" /></p>
-	<p><? echo T_("Enter description of form"); ?>: <input name="desc" type="text"/><br/></p>
-	<p><input type="submit" value="<? echo T_("Upload form"); ?>" /></p>
+	<div class="form-group">
+		<label for="file" class="col-sm-2 control-label"><? echo T_("Select PDF file"); ?>:</label>
+		<div class="col-sm-10">
+			<input id="file" name="form" type="file" />
+
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="bandingxml" class="col-sm-2 control-label"><? echo T_("(Optional): Select banding XML file"); ?>:</label>
+		<div class="col-sm-10">
+
+			<input id="bandingxml" name="bandingxml" type="file" />
+
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="description" class="col-sm-2 control-label">Enter Form Description</label>
+		<div class="col-sm-10">
+
+			<input name="desc" id="description" type="text" class="form-control input-lg" placeholder="Description"/><br/>
+
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="description" class="col-sm-2 control-label">Enter Form Description</label>
+		<div class="col-sm-10">
+
+			<input type="submit" class="btn btn-lg btn-raised btn-primary" value="<? echo T_("Upload form"); ?>" />
+		</div>
+	</div>
+</fieldset>
 </form>
+
+</div>
+
+	</div>
+	<div class="col-sm-1"></div>
+
+</div>
 
 <?
 

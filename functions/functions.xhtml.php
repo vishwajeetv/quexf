@@ -79,11 +79,15 @@ print "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 function xhtml_foot()
 {
 ?>
-	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-	<script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+		<script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.material.init();
+		});
+	</script>
 	</body>
 	</html>
 

@@ -5,19 +5,18 @@
 }
 #menu ul ul{
   list-style: square inside;
-  margin: 5px;
+  /*margin: 5px;*/
   marker-offset: auto;
 }
 #menu h3 {
   /*font-size: 100%;*/
   margin-top: 10px;
-  margin-bottom: 0;
+
 }
 
 #menu h1 {
   /*font-size: 140%;*/
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin-top: 5px;
 }
 
 
@@ -46,7 +45,7 @@
   position:absolute;
 }
 .menu {
-  margin-top: 50px;
+  margin-top: 10px;
   overflow: auto;
   padding: 0;
 }
@@ -58,25 +57,20 @@
 }
 
 .menu ul {
-  padding: 0;
-  margin: 7px 0;
+  /*margin: 7px 0;*/
+}
+.menu ul a{
+  margin-left: -10px;
 }
 
 .menu ul li {
   list-style: none;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-left: -10px;
 
-  font-size: 15px;
-  font-weight: normal;
+
   cursor: pointer;
 }
 
 .menu ul li h2 {
-  margin-left: 15px;
 
 }
 
