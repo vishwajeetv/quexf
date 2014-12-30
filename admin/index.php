@@ -130,8 +130,8 @@ xhtml_head(T_("queXF Admin Functions"), true, array("../css/admin.css"));
                 <ul>
                     <li><a class="btn btn-raised" href="?page=pagesetup.php"><? echo T_("Page setup"); ?></a>
                     </li>
-                    <li><a class="btn btn-raised"
-                           href="?page=testconfig.php"><? echo T_("Test configuration"); ?></a></li>
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=testconfig.php">--><?// echo T_("Test configuration"); ?><!--</a></li>-->
                 </ul>
             </li>
         </ul>
