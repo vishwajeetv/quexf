@@ -45,9 +45,6 @@ if (isset($_FILES['bandingxml']) && isset($_POST['qid']) && !empty($_POST['qid']
 	}
 }
 
-print "<h1>" . T_("Update banding from XML") . "</h1>";
-print "<p>" . T_("WARNING: All previous banding will be erased") . "</p>";
-
 $sql = "SELECT description,qid as value, '' AS selected
 	FROM questionnaires";
 
@@ -55,11 +52,39 @@ $rs = $db->GetAll($sql);
 
 ?>
 
-<form enctype="multipart/form-data" action="" method="post">
-	<p><input type="hidden" name="MAX_FILE_SIZE" value="1000000000" /></p>
-	<p><? echo T_("Select banding XML file"); ?>: <input name="bandingxml" type="file" /></p>
-	<p><? echo T_("Select questionnaire"); ?>: <? display_chooser($rs, 'qid', 'qid', true, false, false, false,false);  ?><br/></p>
-	<p><input type="submit" value="<? echo T_("Upload XML"); ?>" /></p>
+<div class="row">
+	<div class="col-sm-11">
+
+		<div class='well page'>
+
+
+
+<form enctype="multipart/form-data" class="form-horizontal" action="" method="post">
+	<fieldset>
+		<legend><i class="mdi-content-add"></i> Update banding from XML</legend>
+		<p class="text-danger"><small> All previous banding will be erased</small></p>
+
+		<p><input type="hidden" name="MAX_FILE_SIZE" value="1000000000" /></p>
+
+		<div class="form-group">
+			<label for="file" class="col-sm-2 control-label"><? echo T_("Select banding XML file"); ?>:</label>
+			<div class="col-sm-10">
+				<input name="bandingxml" type="file" />
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="file" class="col-sm-2 control-label"><? echo T_("Select questionnaire"); ?>:</label>
+			<div class="col-sm-10">
+				<? display_chooser($rs, 'qid', 'qid', true, false, false, false,false);  ?>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="file" class="col-sm-2 control-label"><? echo T_("Select questionnaire"); ?>:</label>
+			<div class="col-sm-10">
+				<input class="btn btn-lg btn-raised btn-primary" type="submit" value="<? echo T_("Upload XML"); ?>" />
+			</div>
+		</div>
 </form>
 
 <?
