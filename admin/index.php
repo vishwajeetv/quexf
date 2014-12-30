@@ -46,18 +46,18 @@ xhtml_head(T_("queXF Admin Functions"), true, array("../css/admin.css"));
                            href="?page=new.php"><i class="mdi-content-add"></i> New Form</a></li>
                     <li><a class="btn btn-raised"
                            href="?page=importbandingxml.php"><? echo T_("Import/Update banding"); ?></a></li>
-                    <li><a class="btn btn-raised"
-                           href="?page=delete.php"><? echo T_("Delete a form"); ?></a>
-                    </li>
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=delete.php">--><?// echo T_("Delete a form"); ?><!--</a>-->
+<!--                    </li>-->
 <!--                    <li><a class="btn btn-raised"-->
 <!--                           href="?page=touchup.php">--><?// echo T_("Touch-up a form"); ?><!--</a></li>-->
 <!--                    <li><a class="btn btn-raised" href="?page=band.php">--><?// echo T_("Band a form"); ?><!--</a></li>-->
 <!--                    <li><a class="btn btn-raised"-->
 <!--                           href="?page=bandajax.php">--><?// echo T_("Band a form using interactive banding"); ?><!--</a></li>-->
-                    <li><a class="btn btn-raised"
-                           href="?page=reorder.php"><? echo T_("Order form variables"); ?></a></li>
-                    <li><a class="btn btn-raised"
-                           href="?page=limesurvey.php"><? echo T_("Limesurvey integration"); ?></a></li>
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=reorder.php">--><?// echo T_("Order form variables"); ?><!--</a></li>-->
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=limesurvey.php">--><?// echo T_("Limesurvey integration"); ?><!--</a></li>-->
                 </ul>
             </li>
 <!--            <li><h2>--><?// echo T_("Users"); ?><!--</h2>-->
@@ -85,17 +85,17 @@ xhtml_head(T_("queXF Admin Functions"), true, array("../css/admin.css"));
             <li class="well page"><h2><? echo T_("Importing"); ?></h2>
                 <ul>
                     <li><a class="btn btn-raised"
-                           href="?page=import.directory.php"><? echo T_("Import a directory of PDF files"); ?></a></li>
+                           href="?page=import.directory.php"><? echo T_("Import a directory"); ?></a></li>
                     <li><a class="btn btn-raised"
-                           href="?page=listfiles.php?status=1"><? echo T_("Successfully imported files"); ?></a></li>
+                           href="?page=listfiles.php?status=1"><? echo T_("Successful Imports"); ?></a></li>
                     <li><a class="btn btn-raised"
-                           href="?page=listfiles.php?status=2"><? echo T_("Failed imported files"); ?></a></li>
+                           href="?page=listfiles.php?status=2"><? echo T_("Failed imports"); ?></a></li>
                     <li><a class="btn btn-raised"
                            href="?page=listduplicates.php"><? echo T_("Duplicate forms"); ?></a></li>
 <!--                    <li><a class="btn btn-raised"-->
 <!--                           href="?page=listforms.php">--><?// echo T_("Reverify forms"); ?><!--</a></li>-->
-                    <li><a class="btn btn-raised"
-                           href="?page=listpagenotes.php"><? echo T_("List page notes"); ?></a></li>
+<!--                    <li><a class="btn btn-raised"-->
+<!--                           href="?page=listpagenotes.php">--><?// echo T_("List page notes"); ?><!--</a></li>-->
                     <li><a class="btn btn-raised"
                            href="?page=pagesmissing.php"><? echo T_("Pages missing from scan"); ?></a></li>
                     <li><a class="btn btn-raised"
