@@ -74,22 +74,39 @@ else
 	}
 
 	?>	
-	<h1><? echo T_("Directory"); ?></h1>
-	<form enctype="multipart/form-data" action="?" method="post">
-	<p><? echo T_("Enter directory local to the server (eg /mnt/iss/tmp/images)"); ?>: <input name="dir" type="text" value="<? echo realpath("../doc/filled"); ?>"/></p>
-	<p><input name='process' id='process' type="submit" value="<? echo T_("Process directory: browser window must remain open"); ?>" /></p>
-	<p><input name='watch' id='watch' type="submit" value="<? echo T_("Watch this directory in the background (recommended)"); ?>" /></p>
+	<div class="well pages">
+	<h2><? echo T_("Directory"); ?></h2>
+	<form enctype="multipart/form-data" class="form-horizontal" action="?" method="post">
+		<div class="form-group">
+			<label for="description" class="col-sm-2 control-label"><? echo T_("Enter directory local to the server"); ?></label>
+			<div class="col-sm-6">
+
+				<input name="dir" class="form-control input-lg" type="text" value="<? echo realpath("../doc/filled"); ?>"/>
+
+			</div>
+
+		</div>
+		<div class="form-group">
+
+				<input name='process' class="btn btn-lg btn-success btn-raised" id='process' type="submit" value="<? echo T_("Process directory"); ?>" />
+		</div>
+		<div class="form-group">
+
+				<input name='watch' class="btn btn-lg btn-primary btn-raised" id='watch' type="submit" value="<? echo T_("Watch this directory"); ?>" />
+		</div>
 	</form>
+<h2>Outcome of last process run (if any)</h2>
+
+
 	<?
 
-	print "<h2>" . T_("Outcome of last process run (if any)") . "</h2>";
-	
+
 	$d = process_get_last_data(1);
 	if ($d !== false)
         {
                 xhtml_table($d,array('process_log_id','datetime','data'),array(T_("Log id"), T_("Date"), T_("Log entry")));
         }
-
+	print "</div>";
 }
 xhtml_foot();
 ?>
