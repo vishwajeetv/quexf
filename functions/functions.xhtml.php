@@ -104,15 +104,18 @@ function xhtml_foot()
  * @param bool|array $highlight False if nothing to highlight else an array containing the field to highlight
  * 
  */
-function xhtml_table($content,$fields,$head = false,$class = "tclass",$highlight=false)
+function xhtml_table($content,$fields,$head = false,$class = "table table-striped table-hover",$highlight=false)
 {
 	print "<table class='$class'>";
 	if ($head)
 	{
+		print "<thead>";
 		print "<tr>";
 		foreach ($head as $e)
 			print"<th>$e</th>";
 		print "</tr>";
+		print "</thead>";
+		print "<tbody>";
 	}
 	foreach($content as $row)
 	{
@@ -126,6 +129,7 @@ function xhtml_table($content,$fields,$head = false,$class = "tclass",$highlight
 		
 		print "</tr>";
 	}
+	print "</tbody>";
 	print "</table>";
 }
 
