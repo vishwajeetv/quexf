@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="838d5567-d0fd-486f-8709-2e1751334c14" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/import.directory.php" afterPath="$PROJECT_DIR$/admin/import.directory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/listduplicates.php" afterPath="$PROJECT_DIR$/admin/listduplicates.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="quexf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,25 +68,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14906833" vertical-offset="0" max-vertical-offset="322">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
               <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3584905" vertical-offset="734" max-vertical-offset="2544">
-              <caret line="59" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.19424461" vertical-offset="2042" max-vertical-offset="2544">
+              <caret line="133" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
               <folding>
                 <element signature="e#3#924#0#PHP" expanded="true" />
                 <element signature="e#926#952#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listduplicates.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/listduplicates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.08" vertical-offset="1220" max-vertical-offset="1728">
+              <caret line="112" column="127" selection-start-line="112" selection-start-column="127" selection-end-line="112" selection-end-column="127" />
+              <folding>
+                <marker date="1419934816008" expanded="true" signature="1256:1310" placeholder="DELETE FROM ..." />
+                <marker date="1419934816008" expanded="true" signature="1355:1429" placeholder="DELETE FROM ..." />
+                <marker date="1419934816008" expanded="true" signature="1474:1548" placeholder="DELETE FROM ..." />
+                <marker date="1419934816008" expanded="true" signature="1599:1653" placeholder="DELETE FROM ..." />
+                <marker date="1419934816008" expanded="true" signature="1698:1748" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import.directory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/import.directory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0" vertical-offset="1182" max-vertical-offset="1568">
+              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,8 +132,8 @@
       <file leaf-file-name="new.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/new.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.44" vertical-offset="1136" max-vertical-offset="2176">
-              <caret line="112" column="10" selection-start-line="106" selection-start-column="4" selection-end-line="112" selection-end-column="10" />
+            <state vertical-scroll-proportion="-3.68" vertical-offset="1524" max-vertical-offset="2176">
+              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="128" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -121,23 +149,6 @@
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-                <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-                <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-                <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -157,10 +168,12 @@
         <option value="$PROJECT_DIR$/css/admin.css" />
         <option value="$PROJECT_DIR$/admin/new.php" />
         <option value="$PROJECT_DIR$/admin/importbandingxml.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/functions/functions.xhtml.php" />
         <option value="$PROJECT_DIR$/admin/listfiles.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/admin/listduplicates.php" />
+        <option value="$PROJECT_DIR$/admin/import.directory.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
       </list>
     </option>
   </component>
@@ -197,7 +210,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,6 +258,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +319,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4433812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40829346" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28934819" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -363,29 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-            <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1568">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="3584">
@@ -426,12 +416,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-            <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
           </folding>
         </state>
       </provider>
@@ -484,12 +474,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-            <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
           </folding>
         </state>
       </provider>
@@ -498,6 +488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
           <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -567,12 +558,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-            <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
           </folding>
         </state>
       </provider>
@@ -581,6 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
           <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -634,6 +626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3902" max-vertical-offset="4480">
           <caret line="279" column="90" selection-start-line="279" selection-start-column="90" selection-end-line="279" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,6 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3902" max-vertical-offset="4480">
           <caret line="279" column="90" selection-start-line="279" selection-start-column="90" selection-end-line="279" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,6 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="4464">
           <caret line="278" column="60" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,12 +729,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1296">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1406022400000" expanded="true" signature="1149:1202" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1238:1282" placeholder="SELECT pid F..pages..." />
-            <marker date="1406022400000" expanded="true" signature="1329:1369" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1412:1460" placeholder="DELETE FROM ..." />
-            <marker date="1406022400000" expanded="true" signature="1742:1922" placeholder="SELECT q.qid..questionnaires..." />
-            <marker date="1406022400000" expanded="true" signature="1807:1847" placeholder="SELECT count..forms..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT pid F..pages..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT q.qid..questionnaires..." />
+            <marker date="1406022400000" expanded="true" signature="-1:-1" placeholder="SELECT count..forms..." />
           </folding>
         </state>
       </provider>
@@ -785,35 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.44" vertical-offset="1136" max-vertical-offset="2176">
-          <caret line="112" column="10" selection-start-line="106" selection-start-column="4" selection-end-line="112" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/importbandingxml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6037736" vertical-offset="0" max-vertical-offset="1584">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <marker date="1419929812484" expanded="true" signature="1561:1629" placeholder="SELECT descr..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3584905" vertical-offset="734" max-vertical-offset="2544">
-          <caret line="59" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-          <folding>
-            <element signature="e#3#924#0#PHP" expanded="true" />
-            <element signature="e#926#952#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/functions.xhtml.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6" vertical-offset="1746" max-vertical-offset="3712">
@@ -827,6 +793,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/listfiles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.16" vertical-offset="546" max-vertical-offset="1056">
@@ -837,11 +811,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/admin/listduplicates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14906833" vertical-offset="0" max-vertical-offset="322">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state vertical-scroll-proportion="-10.08" vertical-offset="1220" max-vertical-offset="1728">
+          <caret line="112" column="127" selection-start-line="112" selection-start-column="127" selection-end-line="112" selection-end-column="127" />
+          <folding>
+            <marker date="1419934816008" expanded="true" signature="1256:1310" placeholder="DELETE FROM ..." />
+            <marker date="1419934816008" expanded="true" signature="1355:1429" placeholder="DELETE FROM ..." />
+            <marker date="1419934816008" expanded="true" signature="1474:1548" placeholder="DELETE FROM ..." />
+            <marker date="1419934816008" expanded="true" signature="1599:1653" placeholder="DELETE FROM ..." />
+            <marker date="1419934816008" expanded="true" signature="1698:1748" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/importbandingxml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6037736" vertical-offset="0" max-vertical-offset="1584">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1419929812484" expanded="true" signature="1561:1629" placeholder="SELECT descr..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.68" vertical-offset="1524" max-vertical-offset="2176">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="128" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/import.directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0" vertical-offset="1182" max-vertical-offset="1568">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19424461" vertical-offset="2042" max-vertical-offset="2544">
+          <caret line="133" column="15" selection-start-line="132" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
+          <folding>
+            <element signature="e#3#924#0#PHP" expanded="true" />
+            <element signature="e#926#952#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
