@@ -80,8 +80,6 @@ $sql = "SELECT q.description, f.fid, f.pfid, f.assigned_vid, f.done, CASE WHEN f
 
 $fs = $db->GetAll($sql);
 
-print "<h1>" . T_("Duplicate form listing") . "</h1><p>" . T_("Forms with the same PFID are duplicates") . "</p>";
-
 //if form not assigned or done, allow for it's deletion
 //automatically select the first form within a pfid that hasn't been assigned or verified
 //
@@ -109,10 +107,15 @@ if (!empty($fs))
 
 }
 
+
+
+print "<div class='well page'>";
+print "<h2>" . T_("Duplicate form listing") . "<br><small>" . T_(" Forms with the same PFID are duplicates") . "</small></h2>";
 print "<form action='' method='post'>";
 xhtml_table($fs,array('description','fid','pfid','deleteme'),array(T_("Questionnaire"),T_("Formid"),T_("PFID"),T_("Delete")));
-print "<input type='submit' id='submit' name='submit' value='" . T_("Delete selected forms") . "'/>";
+print "<input type='submit' class='btn btn-lg btn-primary btn-raised' id='submit' name='submit' value='" . T_("Delete selected forms") . "'/>";
 print "</form>";
+print "</div>";
 
 xhtml_foot();
 
