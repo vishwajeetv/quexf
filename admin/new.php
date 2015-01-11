@@ -101,7 +101,7 @@ if ($a)
 
 <form enctype="multipart/form-data" class="form-horizontal" action="" method="post">
 	<fieldset>
-		<legend><i class="mdi-content-add"></i> New Form </legend>
+		<legend>New Form</legend>
 
 	<p><input type="hidden" name="MAX_FILE_SIZE" value="1000000000" /></p>
 	<div class="form-group">
@@ -128,7 +128,7 @@ if ($a)
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="description" class="col-sm-2 control-label">Enter Form Description</label>
+		<label for="description" class="col-sm-2 control-label"></label>
 		<div class="col-sm-10">
 
 			<input type="submit" class="btn btn-lg btn-raised btn-primary" value="<? echo T_("Upload form"); ?>" />

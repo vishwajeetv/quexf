@@ -95,7 +95,6 @@ else
 				<input name='watch' class="btn btn-lg btn-primary btn-raised" id='watch' type="submit" value="<? echo T_("Watch this directory"); ?>" />
 		</div>
 	</form>
-<h2>Outcome of last process run (if any)</h2>
 
 
 	<?

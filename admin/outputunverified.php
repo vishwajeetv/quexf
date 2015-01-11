@@ -79,10 +79,21 @@ $sql = "SELECT description,
 
 $qs = $db->GetAll($sql);
 
-print "<h2>" . T_("Warning: the data downloaded from here is unverified") . "</h2>";
+//print "<h2>" . T_("Warning: the data downloaded from here is unverified") . "</h2>";
 
+print("
+<div class='row'>
+<div class='col-lg-11'>
+<div class='well page'>
+<legend>Output Data</legend>");
 xhtml_table($qs, array('description','data','ddi','csv','csvlabel','pspp','banding'),array(T_("Questionnaire"),T_("Data"),T_("DDI"),T_("CSV"),T_("CSV Labelled"), T_("PSPP (SPSS)"), T_("Banding XML")));
+	
+//xhtml_table($qs, array('description','csv'),array(T_("Questionnaire"),T_("Output")));
 
+print("</div>
+<div class='col-lg-1'>
+</div>
+</div>");
 xhtml_foot();
 
 ?>
