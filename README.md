@@ -10,6 +10,7 @@ QueXF is popular, open source form verification and data entry system. http://qu
 1. Clone this repository.
 2. Configure this project according to https://sandilands.info/sgordon/using-quexf-in-ubuntu-for-questionnaires
 3. Use `bower install` to install frontend dependencies.
+4. Admin panel has been redesigned with material design. check it at http://localhost/quexf/admin/ (replace localhost with your domain name, if any.)
 
 
 I do not develope or maintain QueXF.<br />
